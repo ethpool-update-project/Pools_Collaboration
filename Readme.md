@@ -2,7 +2,7 @@ This repo is just a sketchbook notes for collaboration efforts that can be done.
 
 
 # To do
-## Open Ethereum Pools
+### Open Ethereum Pools
 - Create SA or Mena nodes for current coins' pools
 - Add Earnings last 1 Hour
 - Add Earnings last 24 hour
@@ -10,7 +10,7 @@ This repo is just a sketchbook notes for collaboration efforts that can be done.
 - Add worker connected through which diff
 
 
-## Other Ideas
+### Other Ideas
 - Pool Listing submission automation
 
 
