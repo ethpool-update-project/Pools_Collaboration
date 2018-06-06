@@ -1,4 +1,4 @@
-This repo is just a sketchbook notes for collaboration efforts that can be done.
+> This repo is just a sketchbook for notes on collaboration efforts that can be done to enhance mining pools.
 
 
 # To do
@@ -26,3 +26,8 @@ This repo is just a sketchbook notes for collaboration efforts that can be done.
 - Disable Login with password
 - Close All ports except necessary
 - Close incoming SSH connections from `0.0.0.0` except from main servers
+
+
+# Contributors
+* **Brian Bowen** - *System Administration / Security* - [phatblinkie](https://github.com/phatblinkie)
+* **Mohannad Otaibi** - *Front-End Development / Coding* - [mo9a7i](https://github.com/mo9a7i)
