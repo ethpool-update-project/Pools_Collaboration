@@ -3,15 +3,20 @@ This repo is just a sketchbook notes for collaboration efforts that can be done.
 
 # To do
 ### Open Ethereum Pools
-- Create SA or Mena nodes for current coins' pools
-- Add Earnings last 1 Hour
-- Add Earnings last 24 hour
+- Create SA or *Mena nodes* for current coins' pools
+- Add *Earnings last 1 Hour*
+- Add *Earnings last 24 hour*
+- Add selectable payout schema (*PPS*/*PPLNS*)
 - Add worker connected through which server
 - Add worker connected through which diff
+- Add *Dynamic Difficulty* port
+- Add *Solo Port* feature
+
 
 
 ### Other Ideas
-- Pool Listing submission automation
+- Enhance Pools *Homepages*
+- Pool signup for Listing on coin pages automation
 
 
 # Server Security Notes
