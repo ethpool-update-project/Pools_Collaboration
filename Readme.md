@@ -6,12 +6,14 @@
 - Add **Earnings last 1 Hour**
 - Add **Earnings last 24 hour**
 - Add selectable payout schema (**PPS**/**PPLNS**)
-- Add worker connected through which server
+- Add worker connected through which node
 - Add worker connected through which diff
 - Add **Dynamic Difficulty** port
 - Add **Solo Port** feature
 - Add **SSL** Stratum
 - Add **Pool Luck Feature**
+- Add which worker found blocks ?
+- Add Email Monitoring, for rigs down to miner (maybe an outside service reading redis)
 
 ### Other Ideas
 - Enhance Pools **Homepages**
