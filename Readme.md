@@ -14,12 +14,14 @@
 - Add **Pool Luck Feature**
 - Add which worker found blocks ?
 - Add Email Monitoring, for rigs down to miner (maybe an outside service reading redis)
+- Add Telegram notifications for downed rigs
 
 ### Other Ideas
 - Enhance Pools **Homepages**
 - Pool signup for Listing on coin pages automation
 - Create an installation script/security script
--
+- Creata better methods to ease the install process, its very confusing for new pool ops.
+- Create better log file analysis features, possibly stored into redis for an admin page.
 
 # Server Security Notes
 - Disable Redis listen `0.0.0.0`
