@@ -15,12 +15,24 @@
 - Add which worker found blocks ?
 - Add Email Monitoring, for rigs down to miner (maybe an outside service reading redis)
 - Add Telegram notifications for downed rigs
+- Make website description a variable from config, add few words per page
+- 
+
 
 ### Other Ideas
 - Enhance Pools **Homepages**
 - Pool signup for Listing on coin pages automation
 - Create an installation script/security script
-- Creata better methods to ease the install process, its very confusing for new pool ops.
+- Create better methods to ease the install process, its very confusing for new pool ops.
+  - Inputs to Consider
+    - link to the geth file
+    - name of coin
+    - abbreviation
+    - average block time
+    - block reward
+    - pool fee
+    - RPC port
+    -
 - Create better log file analysis features, possibly stored into redis for an admin page.
 
 # Server Security Notes
