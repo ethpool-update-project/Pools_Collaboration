@@ -16,7 +16,17 @@
 - Add Email Monitoring, for rigs down to miner (maybe an outside service reading redis)
 - Add Telegram notifications for downed rigs
 - Make website description a variable from config, add few words per page
+  - Unit: 'ATH',
+  - CoinName: 'Atheios',
 - Create PowerPoint slides (images) showing different components of running a pool and their interactions, services, dependencies, applications, configs, nodes, stratums … etc.
+- Change references to explorer in hbs files, move to environment.js
+  - block explorerlink.tx = ''
+  - blockexplorerlink.blockhash = ''
+  - blockexplorerlink.txhash = ''
+  - blockexplorerlink.blocknumber = ''
+  - blockexplorerlink.Uncle = ''
+
+
 
 
 ### Other Ideas
