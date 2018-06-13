@@ -60,6 +60,12 @@
 - Close All ports except necessary
 - Close incoming SSH connections from `0.0.0.0` except from main servers
 
+# notes
+- To change to PPS, consider [commit](https://github.com/sammy007/open-ethereum-pool/commit/b453d0b6c345a78ff682d38aaa2a019c36522233)
+- For nicehash implementation [commit](https://github.com/sammy007/open-ethereum-pool/compare/master...yuanxing008:master)
+
+
+
 # Credits
 If, any work was used, as part of our implementation, credits will be given here:
 - PPS/Luck/Shifts/Today [CryptoManiacs](https://github.com/CryptoManiac/open-ethereum-pool-pps)
