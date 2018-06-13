@@ -25,6 +25,11 @@
   - blockexplorerlink.txhash = ''
   - blockexplorerlink.blocknumber = ''
   - blockexplorerlink.Uncle = ''
+- eye candy data inserted into db
+  - shares per worker / period (defined in json)
+  - accepted, rejected, stale
+- another payout schema 
+  - in which pool op defines period length, all shares and division amount of reward totals during round happen at end
 
 
 
