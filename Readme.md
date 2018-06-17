@@ -28,6 +28,8 @@
 - eye candy data inserted into db
   - shares per worker / period (defined in json)
   - accepted, rejected, stale
+  - blocks last 24 hours per miner
+  - block finder, on which diff and server
 - another payout schema 
   - in which pool op defines period length, all shares and division amount of reward totals during round happen at end
 
