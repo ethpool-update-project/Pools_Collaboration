@@ -30,7 +30,7 @@
   - accepted, rejected, stale
   - blocks last 24 hours per miner
   - block finder, on which diff and server
-- another payout schema 
+- another payout schema
   - in which pool op defines period length, all shares and division amount of reward totals during round happen at end
 
 
@@ -63,13 +63,16 @@
 # notes
 - To change to PPS, consider [commit](https://github.com/sammy007/open-ethereum-pool/commit/b453d0b6c345a78ff682d38aaa2a019c36522233)
 - For nicehash implementation [commit](https://github.com/sammy007/open-ethereum-pool/compare/master...yuanxing008:master)
+- For telegram Bot [commit](https://github.com/sammy007/open-ethereum-pool/commit/20a3135a78fbe501988264cdab14d0eaae7e7ed6)
+- Mailer [commit](https://github.com/sammy007/open-ethereum-pool/compare/master...siddharth-singhal:master)
+- Mobile menu auto-close [commit](https://github.com/ethersocial/ethersocial-pool/commit/fbb85e43a173cb19531dc2b270dde1d7c57242f9)
 
 
 
 # Credits
 If, any work was used, as part of our implementation, credits will be given here:
 - PPS/Luck/Shifts/Today [CryptoManiacs](https://github.com/CryptoManiac/open-ethereum-pool-pps)
-- i18n/earnings [hackmod pull request on Sammy007 repo](https://github.com/sammy007/open-ethereum-pool/pull/336)
+- i18n/earnings [hackmod pull request on Sammy007 repo](https://github.com/sammy007/open-ethereum-pool/pull/336) [commit](https://github.com/sammy007/open-ethereum-pool/commit/81d2360bccce017ffb5b0e5cf418f7a8a8965b6b)
 
 # Contributors
 * **Brian Bowen** - *System Administration / Security* - [phatblinkie](https://github.com/phatblinkie)
