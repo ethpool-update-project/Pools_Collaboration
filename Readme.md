@@ -67,6 +67,9 @@
 - Mailer [commit](https://github.com/sammy007/open-ethereum-pool/compare/master...siddharth-singhal:master)
 - Mobile menu auto-close [commit](https://github.com/ethersocial/ethersocial-pool/commit/fbb85e43a173cb19531dc2b270dde1d7c57242f9)
 - Nicehsh [proxy file](https://github.com/GRinvest/open-ethereum-pool/blob/b521a98993a4dfbcd47cf7cec8851097762733cf/proxy/stratum_nicehash.go)
+- Interesting [dockerfile](https://github.com/deacix/open-ethereum-pool/blob/f86f4a3fa782df0c48ceddc53377f9d3c3b2b030/docker/Dockerfile)
+- Block Finders Page [commit](https://github.com/sammy007/open-ethereum-pool/commit/72ccff15de8dbef1bff08922bfedd6ab3936b615)
+- score based reward system instead of share based [commit](https://github.com/sammy007/open-ethereum-pool/commit/97c682b37589ed5d9955ca327bea56ab0135ff98)
 
 
 
