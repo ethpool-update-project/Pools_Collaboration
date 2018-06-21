@@ -66,6 +66,7 @@
 - For telegram Bot [commit](https://github.com/sammy007/open-ethereum-pool/commit/20a3135a78fbe501988264cdab14d0eaae7e7ed6)
 - Mailer [commit](https://github.com/sammy007/open-ethereum-pool/compare/master...siddharth-singhal:master)
 - Mobile menu auto-close [commit](https://github.com/ethersocial/ethersocial-pool/commit/fbb85e43a173cb19531dc2b270dde1d7c57242f9)
+- Nicehsh [proxy file](https://github.com/GRinvest/open-ethereum-pool/blob/b521a98993a4dfbcd47cf7cec8851097762733cf/proxy/stratum_nicehash.go)
 
 
 
