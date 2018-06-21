@@ -70,6 +70,7 @@
 - Interesting [dockerfile](https://github.com/deacix/open-ethereum-pool/blob/f86f4a3fa782df0c48ceddc53377f9d3c3b2b030/docker/Dockerfile)
 - Block Finders Page [commit](https://github.com/sammy007/open-ethereum-pool/commit/72ccff15de8dbef1bff08922bfedd6ab3936b615)
 - score based reward system instead of share based [commit](https://github.com/sammy007/open-ethereum-pool/commit/97c682b37589ed5d9955ca327bea56ab0135ff98)
+- Add something to the block recording in redis [commit](https://github.com/sammy007/open-ethereum-pool/commit/9a97a89e4673759ae0850210006b12eb164b3d72) a workerName maybe?
 
 
 
