@@ -18,6 +18,9 @@ done, per worker and per miner
 [ ] Add **Dynamic Difficulty** port
 [ ] Add **Solo Port** feature
 [ ] Add **SSL** Stratum
+```
+can use [STunnel](https://www.digitalocean.com/community/tutorials/how-to-encrypt-traffic-to-redis-with-stunnel-on-ubuntu-16-04#what-is-stunnel) for that purpose
+```
 [ ] Add **Pool Luck Feature**
 [ ] Add which worker found blocks ?
 [ ] Add Email Monitoring, for rigs down to miner (maybe an outside service reading redis)
