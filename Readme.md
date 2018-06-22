@@ -2,45 +2,52 @@
 
 # To do
 ### Open Ethereum Pools
-- Create SA or **Mena nodes** for current coins' pools
-- Add **Earnings last 1 Hour**
-- Add **Earnings last 24 hour**
-- Add selectable payout schema (**PPS**/**PPLNS**)
-- Add worker connected through which node
-- Add worker connected through which diff
-- Add **Dynamic Difficulty** port
-- Add **Solo Port** feature
-- Add **SSL** Stratum
-- Add **Pool Luck Feature**
-- Add which worker found blocks ?
-- Add Email Monitoring, for rigs down to miner (maybe an outside service reading redis)
-- Add Telegram notifications for downed rigs
-- Make website description a variable from config, add few words per page
+[ ] Create SA or **Mena nodes** for current coins' pools
+```
+work in progress
+```
+[x] Add **estimated earnings 24h**
+```
+done, per worker and per miner
+```
+[ ] Add **Earnings last 1 Hour**
+[ ] Add **Earnings last 24 hour**
+[ ] Add selectable payout schema (**PPS**/**PPLNS**)
+[ ] Add worker connected through which node
+[ ] Add worker connected through which diff
+[ ] Add **Dynamic Difficulty** port
+[ ] Add **Solo Port** feature
+[ ] Add **SSL** Stratum
+[ ] Add **Pool Luck Feature**
+[ ] Add which worker found blocks ?
+[ ] Add Email Monitoring, for rigs down to miner (maybe an outside service reading redis)
+[ ] Add Telegram notifications for downed rigs
+[ ] Make website description a variable from config, add few words per page
   - Unit: 'ATH',
   - CoinName: 'Atheios',
-- Create PowerPoint slides (images) showing different components of running a pool and their interactions, services, dependencies, applications, configs, nodes, stratums … etc.
-- Change references to explorer in hbs files, move to environment.js
+[ ] Create PowerPoint slides (images) showing different components of running a pool and their interactions, services, dependencies, applications, configs, nodes, stratums … etc.
+[ ] Change references to explorer in hbs files, move to environment.js
   - block explorerlink.tx = ''
   - blockexplorerlink.blockhash = ''
   - blockexplorerlink.txhash = ''
   - blockexplorerlink.blocknumber = ''
   - blockexplorerlink.Uncle = ''
-- eye candy data inserted into db
+[ ] eye candy data inserted into db
   - shares per worker / period (defined in json)
   - accepted, rejected, stale
   - blocks last 24 hours per miner
   - block finder, on which diff and server
-- another payout schema
+[ ] another payout schema
   - in which pool op defines period length, all shares and division amount of reward totals during round happen at end
 
 
 
 
 ### Other Ideas
-- Enhance Pools **Homepages**
-- Pool signup for Listing on coin pages automation
-- Create an installation script/security script
-- Create better methods to ease the install process, its very confusing for new pool ops.
+[ ] Enhance Pools **Homepages**
+[ ] Pool signup for Listing on coin pages automation
+[ ] Create an installation script/security script
+[ ] Create better methods to ease the install process, its very confusing for new pool ops.
   - Inputs to Consider
     - link to the geth file
     - name of coin
@@ -50,7 +57,7 @@
     - pool fee
     - RPC port
     -
-- Create better log file analysis features, possibly stored into redis for an admin page.
+[ ] Create better log file analysis features, possibly stored into redis for an admin page.
 
 # Server Security Notes
 - Disable Redis listen `0.0.0.0`
