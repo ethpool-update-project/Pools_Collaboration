@@ -2,9 +2,9 @@
 
 # To do
 ### Open Ethereum Pools
-- [ ] Create SA or **Mena nodes** for current coins' pools 
+- [ ] Create SA or **Mena nodes** for current coins' pools  
       work in progress
-- [x] Add **estimated earnings 24h**
+- [x] Add **estimated earnings 24h**  
       done, per worker and per miner
 - [ ] Add **Earnings last 1 Hour**
 - [ ] Add **Earnings last 24 hour**
@@ -13,7 +13,7 @@
 - [ ] Add worker connected through which diff
 - [ ] Add **Dynamic Difficulty** port
 - [ ] Add **Solo Port** feature
-- [ ] Add **SSL** Stratum
+- [ ] Add **SSL** Stratum  
       can use [STunnel](https://www.digitalocean.com/community/tutorials/how-to-encrypt-traffic-to-redis-with-stunnel-on-ubuntu-16-04#what-is-stunnel) for that purpose
 - [ ] Add **Pool Luck Feature**
 - [ ] Add which worker found blocks ?
