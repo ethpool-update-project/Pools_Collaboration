@@ -2,10 +2,9 @@
 
 # To do
 ### Open Ethereum Pools
-- [ ] Create SA or **Mena nodes** for current coins' pools
+- [ ] Create SA or **Mena nodes** for current coins' pools 
       work in progress
 - [x] Add **estimated earnings 24h**
-
       done, per worker and per miner
 - [ ] Add **Earnings last 1 Hour**
 - [ ] Add **Earnings last 24 hour**
