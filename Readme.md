@@ -3,26 +3,44 @@
 # To do
 ### Open Ethereum Pools
 - [ ] Create SA or **Mena nodes** for current coins' pools  
+      ```
       work in progress
+      ```
 - [x] Add **estimated earnings 24h**  
+      ```
       done, per worker and per miner
+      ```
 - [ ] Add **Earnings last 1 Hour**
 - [ ] Add **Earnings last 24 hour**
 - [ ] Add selectable payout schema (**PPS**/**PPLNS**)
-- [ ] Add worker connected through which node
-- [ ] Add worker connected through which diff
+- [ ] Add ping check with special stratum port, then direct to lowest ping
+- [ ] Add helper for estimated earnings in USD, with BTC price from coinmarketcap and a config var to enable or disable the feature (for coins that are not listed yet, or show 0 if api doesn't work)
+- [x] Add worker connected through which node  
+      ```
+      done, added value to redis
+      ```
+- [x] Add worker connected through which diff  
+      ```
+      done, added value to redis
+      ```
 - [ ] Add **Dynamic Difficulty** port
 - [ ] Add **Solo Port** feature
 - [ ] Add **SSL** Stratum  
+      ```
       can use [STunnel](https://www.digitalocean.com/community/tutorials/how-to-encrypt-traffic-to-redis-with-stunnel-on-ubuntu-16-04#what-is-stunnel) for that purpose
+      ```
 - [ ] Add **Pool Luck Feature**
+- [ ] Add and Enhance Code documentation
 - [ ] Add which worker found blocks ?
 - [ ] Add Email Monitoring, for rigs down to miner (maybe an outside service reading redis)
 - [ ] Add Telegram notifications for downed rigs
 - [ ] Make website description a variable from config, add few words per page
   - Unit: 'ATH',
   - CoinName: 'Atheios',
-- [ ] Create PowerPoint slides (images) showing different components of running a pool and their interactions, services, dependencies, applications, configs, nodes, stratums … etc.
+- [ ] Create PowerPoint slides (images) showing different components of running a pool and their interactions, services, dependencies, applications, configs, nodes, stratums … etc.  
+      ```
+      work in progress
+      ```
 - [ ] Change references to explorer in hbs files, move to environment.js
   - block explorerlink.tx = ''
   - blockexplorerlink.blockhash = ''
@@ -66,7 +84,7 @@
 
 # notes
 - To change to PPS, consider [commit](https://github.com/sammy007/open-ethereum-pool/commit/b453d0b6c345a78ff682d38aaa2a019c36522233)
-- For nicehash implementation [commit](https://github.com/sammy007/open-ethereum-pool/compare/master...yuanxing008:master)
+- For NiceHash implementation [commit](https://github.com/sammy007/open-ethereum-pool/compare/master...yuanxing008:master)
 - For telegram Bot [commit](https://github.com/sammy007/open-ethereum-pool/commit/20a3135a78fbe501988264cdab14d0eaae7e7ed6)
 - Mailer [commit](https://github.com/sammy007/open-ethereum-pool/compare/master...siddharth-singhal:master)
 - Mobile menu auto-close [commit](https://github.com/ethersocial/ethersocial-pool/commit/fbb85e43a173cb19531dc2b270dde1d7c57242f9)
@@ -75,6 +93,7 @@
 - Block Finders Page [commit](https://github.com/sammy007/open-ethereum-pool/commit/72ccff15de8dbef1bff08922bfedd6ab3936b615)
 - score based reward system instead of share based [commit](https://github.com/sammy007/open-ethereum-pool/commit/97c682b37589ed5d9955ca327bea56ab0135ff98)
 - Add something to the block recording in redis [commit](https://github.com/sammy007/open-ethereum-pool/commit/9a97a89e4673759ae0850210006b12eb164b3d72) a workerName maybe?
+- like those icons [commit](https://github.com/sammy007/open-ethereum-pool/commit/a84c4e24a23b3d04c22a3855f07f8feb12e00861)
 
 
 
