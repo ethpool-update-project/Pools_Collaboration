@@ -99,7 +99,7 @@
 - like those icons [commit](https://github.com/sammy007/open-ethereum-pool/commit/a84c4e24a23b3d04c22a3855f07f8feb12e00861)
 
 # Current Pools' Features, Designs and Concepts (Benchmark)
-- (Top Mining)[https://clo.topmining.co.kr/]  
+- [Top Mining](https://clo.topmining.co.kr/)
   - Pool Homepage arrangement
   - menu design
   - Server Status
@@ -112,7 +112,7 @@
     - TOS
   - Help page
     - Wallet Tutorial
-- (2Miners)[https://2miners.com/]
+- [2Miners](https://2miners.com/)
   - Main Pools interface
     - Aggregated Hash power and pool statistics
     - Focus on Ping (clarification)
@@ -121,9 +121,9 @@
     - How many blocks found
     - How much paid to miners so far
   - Real Coin Pool Homepage
-  - Standardized (FAQ Page)[https://2miners.com/faq]
-  - A (Blog)[https://2miners.com/blog/how-the-mining-pool-works-pplns-vs-solo/] with information related to mining
-- (Minerpool.net)[http://minerpool.net/]
+  - Standardized [FAQ Page](https://2miners.com/faq)
+  - A [Blog](https://2miners.com/blog/how-the-mining-pool-works-pplns-vs-solo/) with information related to mining
+- [Minerpool.net](http://minerpool.net/)
   - Homepage
     - Coin prices and fast comparison
   - Coin Pool Homepage
