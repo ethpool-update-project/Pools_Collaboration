@@ -26,8 +26,9 @@
 - [ ] Add **Dynamic Difficulty** port
 - [ ] Add **Solo Port** feature
 - [ ] Add **SSL** Stratum  
+      [STunnel](https://www.digitalocean.com/community/tutorials/how-to-encrypt-traffic-to-redis-with-stunnel-on-ubuntu-16-04#what-is-stunnel)
       ```
-      can use [STunnel](https://www.digitalocean.com/community/tutorials/how-to-encrypt-traffic-to-redis-with-stunnel-on-ubuntu-16-04#what-is-stunnel) for that purpose
+      can use STunnel for that purpose, maybe?
       ```
 - [ ] Add **Pool Luck Feature**
 <<<<<<< HEAD
