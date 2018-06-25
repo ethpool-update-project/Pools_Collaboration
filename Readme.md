@@ -31,11 +31,8 @@
       can use STunnel for that purpose, maybe?
       ```
 - [ ] Add **Pool Luck Feature**
-<<<<<<< HEAD
 - [ ] Add and Enhance Code documentation
-=======
 - [ ] Add **Multiple stratum region support for low latency**
->>>>>>> origin/master
 - [ ] Add which worker found blocks ?
 - [ ] Add Email Monitoring, for rigs down to miner (maybe an outside service reading redis)
 - [ ] Add Telegram notifications for downed rigs
@@ -46,12 +43,15 @@
       ```
       work in progress
       ```
-- [ ] Change references to explorer in hbs files, move to environment.js
+- [x] Change references to explorer in hbs files, move to environment.js
   - block explorerlink.tx = ''
   - blockexplorerlink.blockhash = ''
   - blockexplorerlink.txhash = ''
   - blockexplorerlink.blocknumber = ''
-  - blockexplorerlink.Uncle = ''
+  - blockexplorerlink.Uncle = ''  
+    ```
+    Done, moved these links to localization (languege) files
+    ```
 - [ ] eye candy data inserted into db
   - shares per worker / period (defined in json)
   - accepted, rejected, stale
@@ -59,8 +59,6 @@
   - block finder, on which diff and server
 - [ ] another payout schema
   - in which pool op defines period length, all shares and division amount of reward totals during round happen at end
-
-
 
 
 ### Other Ideas
@@ -87,7 +85,7 @@
 - Close All ports except necessary
 - Close incoming SSH connections from `0.0.0.0` except from main servers
 
-# notes
+# Notes
 - To change to PPS, consider [commit](https://github.com/sammy007/open-ethereum-pool/commit/b453d0b6c345a78ff682d38aaa2a019c36522233)
 - For NiceHash implementation [commit](https://github.com/sammy007/open-ethereum-pool/compare/master...yuanxing008:master)
 - For telegram Bot [commit](https://github.com/sammy007/open-ethereum-pool/commit/20a3135a78fbe501988264cdab14d0eaae7e7ed6)
@@ -99,6 +97,45 @@
 - score based reward system instead of share based [commit](https://github.com/sammy007/open-ethereum-pool/commit/97c682b37589ed5d9955ca327bea56ab0135ff98)
 - Add something to the block recording in redis [commit](https://github.com/sammy007/open-ethereum-pool/commit/9a97a89e4673759ae0850210006b12eb164b3d72) a workerName maybe?
 - like those icons [commit](https://github.com/sammy007/open-ethereum-pool/commit/a84c4e24a23b3d04c22a3855f07f8feb12e00861)
+
+# Current Pools' Features, Designs and Concepts (Benchmark)
+- (Top Mining)[https://clo.topmining.co.kr/]  
+  - Pool Homepage arrangement
+  - menu design
+  - Server Status
+  - Help information and useful links on the side
+  - Ticker Info
+  - Tables design (Blocks, Miners, Workers...etc.)
+  - About page
+    - Glossary
+    - Questions
+    - TOS
+  - Help page
+    - Wallet Tutorial
+- (2Miners)[https://2miners.com/]
+  - Main Pools interface
+    - Aggregated Hash power and pool statistics
+    - Focus on Ping (clarification)
+  - Coin Pool Homepage
+    - Dashboard style
+    - How many blocks found
+    - How much paid to miners so far
+  - Real Coin Pool Homepage
+  - Standardized (FAQ Page)[https://2miners.com/faq]
+  - A (Blog)[https://2miners.com/blog/how-the-mining-pool-works-pplns-vs-solo/] with information related to mining
+- (Minerpool.net)[http://minerpool.net/]
+  - Homepage
+    - Coin prices and fast comparison
+  - Coin Pool Homepage
+    - Geolocation
+    - Variable Difficulty
+  - Miners page
+    - Last paid 1 hour
+    - Last paid 24 hours
+    - Estimated Earnings USD in 24 hours
+    - Solo mining and Pool Mining
+    - Blocks found and which worker ?
+    - Unconfirmed payouts ???
 
 
 
