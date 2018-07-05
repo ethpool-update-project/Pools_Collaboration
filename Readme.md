@@ -10,9 +10,14 @@
       ```
       done, per worker and per miner
       ```
-- [ ] Add **Earnings last 1 Hour**
-- [ ] Add **Earnings last 24 hour**
+- [x] Add **Earnings last 1 Hour**
+- [x] Add **Earnings last 24 hour**  
+      ```
+      done, copied [Open-ubiq-pool changes](https://github.com/mapleshadow/open-ubiq-pool/)
+      ```
 - [ ] Add selectable payout schema (**PPS**/**PPLNS**)
+- [ ] another payout schema
+  - in which pool op defines period length, all shares and division amount of reward totals during round happen at end
 - [ ] Add ping check with special stratum port, then direct to lowest ping
 - [ ] Add helper for estimated earnings in USD, with BTC price from coinmarketcap and a config var to enable or disable the feature (for coins that are not listed yet, or show 0 if api doesn't work)
 - [x] Add worker connected through which node  
@@ -30,10 +35,10 @@
       ```
       can use STunnel for that purpose, maybe?
       ```
-- [ ] Add **Pool Luck Feature**
+- [ ] Add **Pool Luck Feature** similar to
 - [ ] Add and Enhance Code documentation
 - [ ] Add **Multiple stratum region support for low latency**
-- [ ] Add which worker found blocks ?
+- [ ] Add which worker found blocks ? and maybe on pool blocks page, add which miner found which block
 - [ ] Add Email Monitoring, for rigs down to miner (maybe an outside service reading redis)
 - [ ] Add Telegram notifications for downed rigs
 - [ ] Make website description a variable from config, add few words per page
@@ -57,8 +62,9 @@
   - accepted, rejected, stale
   - blocks last 24 hours per miner
   - block finder, on which diff and server
-- [ ] another payout schema
-  - in which pool op defines period length, all shares and division amount of reward totals during round happen at end
+- [ ] Pool Announcements: add announcements to the top of pools, get from json to be there on all pools with exclusion
+- [ ] Complete Translation and add Korean
+- [ ] On Miners list page, add most used server and diff per miner
 
 
 ### Other Ideas
@@ -136,7 +142,9 @@
     - Solo mining and Pool Mining
     - Blocks found and which worker ?
     - Unconfirmed payouts ???
-
+- [Fairpool](https://aka.fairpool.xyz/)
+- [Altpool](http://altpool.pro/)
+- [MoacPool.xyz](http://moacpool.xyz/#/)
 # Credits
 If, any work was used, as part of our implementation, credits will be given here:
 - PPS/Luck/Shifts/Today [CryptoManiacs](https://github.com/CryptoManiac/open-ethereum-pool-pps)
