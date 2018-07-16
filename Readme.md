@@ -145,6 +145,7 @@
 - [Fairpool](https://aka.fairpool.xyz/)
 - [Altpool](http://altpool.pro/)
 - [MoacPool.xyz](http://moacpool.xyz/#/)
+- [PPLNS.io](https://pplns.io)
 # Credits
 If, any work was used, as part of our implementation, credits will be given here:
 - PPS/Luck/Shifts/Today [CryptoManiacs](https://github.com/CryptoManiac/open-ethereum-pool-pps)
