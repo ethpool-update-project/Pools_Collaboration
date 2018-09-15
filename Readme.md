@@ -146,6 +146,12 @@
 - [Altpool](http://altpool.pro/)
 - [MoacPool.xyz](http://moacpool.xyz/#/)
 - [PPLNS.io](https://pplns.io)
+
+
+# Go Lang Redis notes
+
+
+
 # Credits
 If, any work was used, as part of our implementation, credits will be given here:
 - PPS/Luck/Shifts/Today [CryptoManiacs](https://github.com/CryptoManiac/open-ethereum-pool-pps)
