@@ -30,7 +30,7 @@
       ```
 - [ ] Add **Dynamic Difficulty** port
 - [ ] Add **Solo Port** feature
-- [ ] Add **SSL** Stratum  
+- [x] Add **SSL** Stratum  https://github.com/phatblinkie/pirl.cryptopools.info/commit/f7ee64daaf23a57a1ad9ebcbe19b58eafe2f6773
       [STunnel](https://www.digitalocean.com/community/tutorials/how-to-encrypt-traffic-to-redis-with-stunnel-on-ubuntu-16-04#what-is-stunnel)
       ```
       can use STunnel for that purpose, maybe?
