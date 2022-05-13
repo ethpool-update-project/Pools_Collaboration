@@ -16,6 +16,12 @@
       done, copied [Open-ubiq-pool changes](https://github.com/mapleshadow/open-ubiq-pool/)
       ```
 - [ ] Add selectable payout schema (**PPS**/**PPLNS**)
+- [x] Add stratum 2.0.0 support - done
+- [x] fix worker names to longer than 8 chars. (now 20)
+- [x] add nicehash support to stratum - done
+- [x] add graphing on backend for network hashrate, connected miners, connected workers, difficulty - done
+- [x] fix the toHex build error - done
+- [x] bring pool back to sourced from sammy repo, so all changes can be tracked backwards if needed for fresh builds - done 
 - [ ] another payout schema
   - in which pool op defines period length, all shares and division amount of reward totals during round happen at end
 - [ ] Add ping check with special stratum port, then direct to lowest ping
@@ -30,8 +36,7 @@
       ```
 - [ ] Add **Dynamic Difficulty** port
 - [ ] Add **Solo Port** feature
-- [x] Add **SSL** Stratum  https://github.com/phatblinkie/pirl.cryptopools.info/commit/f7ee64daaf23a57a1ad9ebcbe19b58eafe2f6773
-      [STunnel](https://www.digitalocean.com/community/tutorials/how-to-encrypt-traffic-to-redis-with-stunnel-on-ubuntu-16-04#what-is-stunnel)
+- [x] Add **SSL** Stratum completed.
       ```
       can use STunnel for that purpose, maybe?
       ```
